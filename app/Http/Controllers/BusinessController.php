@@ -139,7 +139,7 @@ class BusinessController extends Controller
 
         $system_settings = System::getProperties(['superadmin_enable_register_tc', 'superadmin_register_tc'], true);
 
-        return view('business.register', compact(
+        return view('business.registers', compact(
             'currencies',
             'timezone_list',
             'months',

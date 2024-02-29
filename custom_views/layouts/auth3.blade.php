@@ -18,6 +18,18 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        body {
+            background-image: url({{ asset('/assets/media/auth/bg4.jpg') }});
+            background-size: cover;
+            background-position: bottom center;
+            background-repeat: no-repeat;
+        }
+
+        [data-bs-theme="dark"] body {
+            background-image: url({{ asset('/assets/media/auth/bg4.jpg') }});
+        }
+    </style>
 </head>
 
 <body>
