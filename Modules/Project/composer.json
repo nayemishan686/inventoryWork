@@ -1,0 +1,25 @@
+{
+    "name": "twf/project",
+    "description": "",
+    "authors": [
+        {
+            "name": "Scalerp",
+            "email": "dev@Scalerp.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Project\\Providers\\ProjectServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Project\\": ""
+        }
+    }
+}

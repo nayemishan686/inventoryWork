@@ -1,0 +1,25 @@
+{
+    "name": "twf/manufacturing",
+    "description": "",
+    "authors": [
+        {
+            "name": "Scalerp",
+            "email": "dev@Scalerp.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Manufacturing\\Providers\\ManufacturingServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Manufacturing\\": ""
+        }
+    }
+}
